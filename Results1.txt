@@ -1,0 +1,239 @@
+2)
+Ranking:
+1. Stalemate Quoter: $1.0
+2. BuffyMM: $-0.07
+BuffyMM bankrupt: False (cash balance: 9.93, starting capital: 10.0)
+> FED: 5.75, AJR: 1391.0, THR: 2269.23
+> FOK from counterparty 783057: buy 0.01 for 1 5498600 (2d THR >= 2419.00)
+> BuffyMM ignored the FOK (theo=0.1823)
+
+[Underlying state advanced by one step]
+> FED: 5.5, AJR: 1327.04, THR: 2258.07
+> RFQ from counterparty 689497: sell 6 8734500 (1d THR >= 2371.00)
+> BuffyMM quoted buy 0.06 for 3 / sell 1 @ 0.11 (theo=0.0886)
+> BuffyMM bought 0.06 for 3 8734500 (1d THR >= 2371.00) (counterparty 689497)
+> RFQ from counterparty 689497: buy 2 8734500 (1d THR >= 2371.00)
+> BuffyMM quoted buy 0.06 for 3 / sell 1 @ 0.11 (theo=0.0886)
+> BuffyMM sold 1 @ 0.11 8734500 (1d THR >= 2371.00) (counterparty 689497)
+
+[Underlying state advanced by one step]
+> FED: 5.75, AJR: 1277.17, THR: 2241.32
+> 8734500 (0d THR >= 2371.00) expired with expiry_val=0.0
+Result: PASS (score=1.00)
+
+3)
+
+Ranking:
+1. Fixed Width 0.1: $0.7
+2. BuffyMM: $0.21
+3. Stalemate Quoter: $0.0
+BuffyMM bankrupt: False (cash balance: 20.21, starting capital: 20.0)
+> FED: 1.5, AJR: 1143.14, THR: 1787.62
+> FOK from counterparty 482453: buy 0.99 for 2 4895269 (2d THR >= 1735.00)
+> BuffyMM ignored the FOK (theo=0.9998)
+> RFQ from counterparty 309546: buy 3 3857985 (1d FED >= 1.75)
+> BuffyMM quoted buy 0.17 for 2 / sell 1 @ 0.21 (theo=0.1900)
+> BuffyMM sold 1 @ 0.21 3857985 (1d FED >= 1.75) (counterparty 309546)
+
+[Underlying state advanced by one step]
+> FED: 1.5, AJR: 1142.9, THR: 1794.43
+> 3857985 (0d FED >= 1.75) expired with expiry_val=0.0
+> FOK from counterparty 482453: sell 9 @ 0.99 4895269 (1d THR >= 1735.00)
+> BuffyMM ignored the FOK (theo=1.0000)
+> FOK from counterparty 101661: sell 8 @ 0.99 1280022 (2d THR - AJR >= 0.00)
+> BuffyMM ignored the FOK (theo=1.0000)
+
+[Underlying state advanced by one step]
+> FED: 1.5, AJR: 1162.7, THR: 1808.13
+> RFQ from counterparty 474121: buy 4 1280022 (1d THR - AJR >= 0.00)
+> BuffyMM quoted buy 0.98 for 1 / sell 100000 @ 1.0 (theo=1.0000)
+> BuffyMM sold 2 @ 1.0 1280022 (1d THR - AJR >= 0.00) (counterparty 474121)
+> FOK from counterparty 482453: buy 0.99 for 8 5517759 (1d THR >= 1523.00)
+> BuffyMM ignored the FOK (theo=1.0000)
+
+[Underlying state advanced by one step]
+> FED: 1.25, AJR: 1194.78, THR: 1863.33
+> 1280022 (0d THR - AJR >= 0.00) expired with expiry_val=1.0
+Result: PASS (score=1.00)
+
+4) 
+Ranking:
+1. Fixed Width 0.05: $2.9
+2. BuffyMM: $0.21
+3. Mongoose: $0.0
+BuffyMM bankrupt: False (cash balance: 40.21, starting capital: 40.0)
+> FED: 2.25, AJR: 1309.3, THR: 635.29
+> FOK from counterparty 123260: buy 0.94 for 26 6685933 (1d THR >= 624.00)
+> BuffyMM ignored the FOK (theo=0.9791)
+> FOK from counterparty 469703: buy 0.39 for 11 4986864 (2d AJR >= 1315.00)
+> BuffyMM ignored the FOK (theo=0.5679)
+> FOK from counterparty 469703: buy 0.99 for 2 6685933 (1d THR >= 624.00)
+> BuffyMM ignored the FOK (theo=0.9791)
+
+[Underlying state advanced by one step]
+> FED: 2.25, AJR: 1324.96, THR: 651.85
+> RFQ from counterparty 469703: sell 11 4986864 (1d AJR >= 1315.00)
+> BuffyMM quoted buy 0.79 for 1 / sell 4 @ 0.84 (theo=0.8174)
+> BuffyMM bought 0.79 for 1 4986864 (1d AJR >= 1315.00) (counterparty 469703)
+> FOK from counterparty 808858: buy 0.99 for 16 4765820 (2d FED >= 1.50)
+> BuffyMM ignored the FOK (theo=1.0000)
+> FOK from counterparty 578477: buy 0.78 for 17 4986864 (1d AJR >= 1315.00)
+> BuffyMM ignored the FOK (theo=0.8174)
+
+[Underlying state advanced by one step]
+> FED: 2.25, AJR: 1347.82, THR: 648.13
+> 4986864 (0d AJR >= 1315.00) expired with expiry_val=1.0
+> FOK from counterparty 757814: sell 25 @ 0.01 7933446 (1d AJR >= 1408.00)
+> BuffyMM ignored the FOK (theo=0.0014)
+> FOK from counterparty 808858: buy 0.99 for 26 7316899 (1d FED >= 1.00)
+> BuffyMM ignored the FOK (theo=1.0000)
+
+[Underlying state advanced by one step]
+> FED: 2.25, AJR: 1361.52, THR: 690.84
+Result: PASS (score=1.00)
+
+5)
+
+Ranking:
+1. Stalemate Quoter: $43.0
+2. BuffyMM: $0.81
+BuffyMM bankrupt: False (cash balance: 10.81, starting capital: 10.0)
+Result: PASS (score=0.40)
+
+6) 
+
+Ranking:
+1. Fixed Width 0.25: $13.13
+2. Stalemate Quoter: $1.0
+3. BuffyMM: $-0.04
+BuffyMM bankrupt: False (cash balance: 9.96, starting capital: 10.0)
+Result: PASS (score=0.40)
+
+7)
+
+Ranking:
+1. Fixed Width 0.25: $21.23
+2. BuffyMM: $0.45
+BuffyMM bankrupt: False (cash balance: 10.45, starting capital: 10.0)
+Result: PASS (score=0.40)
+
+8)
+
+Ranking:
+1. Fixed Width 0.1: $32.98
+2. Stalemate Quoter: $2.0
+3. BuffyMM: $-0.29
+BuffyMM bankrupt: False (cash balance: 9.71, starting capital: 10.0)
+Result: PASS (score=0.40)
+
+9)
+
+Ranking:
+1. Fixed Width 0.1: $21.76
+2. BuffyMM: $19.26
+3. Fixed Width 0.25: $0.0
+BuffyMM bankrupt: False (cash balance: 29.26, starting capital: 10.0)
+Result: PASS (score=0.70)
+
+10)
+
+Ranking:
+1. Fixed Width 0.1: $38.13
+2. BuffyMM: $10.69
+3. Stalemate Quoter: $1.0
+BuffyMM bankrupt: False (cash balance: 30.69, starting capital: 20.0)
+Result: PASS (score=0.70)
+
+11)
+
+Ranking:
+1. BuffyMM: $3.47
+2. Fixed Width 0.05: $1.43
+3. Fixed Width 0.1: $0.68
+BuffyMM bankrupt: False (cash balance: 23.47, starting capital: 20.0)
+Result: PASS (score=1.00)
+
+12)
+
+Ranking:
+1. BuffyMM: $4.42
+2. Fixed Width 0.05: $-9.29
+BuffyMM bankrupt: False (cash balance: 24.42, starting capital: 20.0)
+Result: PASS (score=1.00)
+
+13)
+
+Ranking:
+1. Fixed Width 0.1: $19.96
+2. Lattice: $5.96
+3. Situational Unawareness: $2.68
+4. BuffyMM: $1.06
+BuffyMM bankrupt: False (cash balance: 21.06, starting capital: 20.0)
+Result: PASS (score=0.40)
+
+14)
+
+Ranking:
+1. Lattice: $22.97
+2. Fixed Width 0.05: $5.86
+3. BuffyMM: $5.48
+BuffyMM bankrupt: False (cash balance: 25.48, starting capital: 20.0)
+Result: PASS (score=0.40)
+
+15)
+
+Ranking:
+1. Situational Unawareness: $9.85
+2. Lattice: $2.51
+3. BuffyMM: $0.49
+BuffyMM bankrupt: False (cash balance: 20.49, starting capital: 20.0)
+Result: PASS (score=0.40)
+
+16)
+
+Ranking:
+1. BuffyMM: $23.55
+2. Fixed Width 0.05: $9.78
+3. Lattice: $9.08
+BuffyMM bankrupt: False (cash balance: 63.55, starting capital: 40.0)
+Result: PASS (score=1.00)
+
+17)
+
+Ranking:
+1. BuffyMM: $33.89
+2. Situational Unawareness: $15.73
+3. Lattice: $13.72
+4. Mongoose: $-31.69
+BuffyMM bankrupt: False (cash balance: 73.89, starting capital: 40.0)
+Result: PASS (score=1.00)
+
+18)
+
+Ranking:
+1. Fixed Width 0.05: $51.72
+2. Lattice: $-2.27
+3. BuffyMM: $-4.86
+4. Mongoose: $-26.34
+BuffyMM bankrupt: False (cash balance: 35.14, starting capital: 40.0)
+Result: PASS (score=0.60)
+
+19)
+
+Ranking:
+1. Situational Unawareness: $22.86
+2. BuffyMM: $-6.14
+3. Fixed Width 0.05: $-12.14
+4. Mongoose: $-23.89
+BuffyMM bankrupt: False (cash balance: 33.86, starting capital: 40.0)
+Result: PASS (score=0.80)
+
+20)
+
+Ranking:
+1. BuffyMM: $-1.92
+2. Lattice: $-10.08
+3. Mongoose: $-26.67
+4. Fixed Width 0.05: $-104.89
+BuffyMM bankrupt: False (cash balance: 38.08, starting capital: 40.0)
+Result: PASS (score=1.00)
